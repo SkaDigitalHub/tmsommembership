@@ -272,6 +272,17 @@
             transition: background-color 0.3s, transform 0.3s;
         }
 
+        }
+        /* Default (light mode) */
+        .fa-house {
+             color: #667eea; /* Blue icon for light mode */
+        }
+
+       /* Dark mode */
+        .dark-mode .fa-house {
+             color: #121212; /* black icon for dark mode */
+        }
+
         @media (max-width: 30rem) {
             .side-menu {
                 width: 15.63rem;
